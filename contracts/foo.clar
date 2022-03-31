@@ -1,4 +1,3 @@
-
 ;; foo
 
 ;; data maps and vars
@@ -14,7 +13,7 @@
 ;; public functions
 ;;
 (define-read-only (add (a int) (b int))
-    (+  a b)
+    (+ a b)
 )
 
 (use-trait baz .baz.baz)
