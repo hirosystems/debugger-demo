@@ -1,5 +1,5 @@
 [project]
-name = "debug-demo"
+name = "debugger-demo"
 authors = []
 description = ""
 telemetry = true
