@@ -1,0 +1,17 @@
+[project]
+name = "debug-demo"
+authors = []
+description = ""
+telemetry = true
+requirements = []
+[contracts.bar]
+path = "contracts/bar.clar"
+depends_on = ["baz"]
+
+[contracts.baz]
+path = "contracts/baz.clar"
+depends_on = []
+
+[contracts.foo]
+path = "contracts/foo.clar"
+depends_on = ["bar"]
