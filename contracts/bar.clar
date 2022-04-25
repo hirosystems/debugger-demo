@@ -9,7 +9,7 @@
 ;; private functions
 ;;
 (define-private (max10 (val int))
-    (if (> 10 val) 10 val)
+    (if (> val 10) 10 val)
 )
 
 ;; public functions
