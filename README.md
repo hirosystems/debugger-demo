@@ -107,6 +107,8 @@ When the execution completes, check the Debug Console for events emitted by the 
 
 ![debug console](docs/images/debug-console.png)
 
+---
+
 ## Command Line Debugger
 
 ![screen recording](docs/images/demo.gif)
